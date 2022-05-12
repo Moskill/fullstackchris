@@ -1,0 +1,213 @@
+/*
+ Theme Name:   Theme Full Stack Chris
+ Description:  Theme for my personal site
+ Author:       Christian Borek
+ Author URI:   https://www.fullstackchris.com
+ Version:      1.0
+ Text Domain:  FuclStackChris-theme
+*/
+
+body {
+  background-color: #0e0e0e !important;
+  color: #dbdbdb !important;
+}
+
+header {
+  display: inherit;
+}
+
+.right-header {
+  background-image: url('images/me-header.avif');
+  background-repeat: no-repeat;
+  /* background-attachment: fixed; */
+  background-position: 0% 0%;
+  height: 1000px;
+  background-size: 600px;
+}
+
+.full-height {
+  height: 100% !important;
+  width: 100% !important;
+}
+
+.ftco-navbar-light {
+  background: #fff!important;
+  z-index: 3;
+  padding: 10px 10px;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 5px 20px -17px rgb(0 0 0 / 34%);
+  -moz-box-shadow: 0 5px 20px -17px rgba(0,0,0,.34);
+  box-shadow: 0 5px 20px -17px rgb(0 0 0 / 34%);
+}
+
+.navbar-expand-lg {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-flow: row nowrap;
+  flex-flow: row nowrap;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+}
+
+.navbar {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 0.5rem 1rem;
+}
+
+@media (min-width: 992px){
+  .navbar-expand-lg>.container, .navbar-expand-lg>.container-fluid {
+      -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  }
+}
+.navbar>.container, .navbar>.container-fluid {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.ftco-navbar-light .navbar-toggler {
+  border: none;
+  color: rgba(255,255,255,.5)!important;
+  cursor: pointer;
+  padding-right: 0;
+  text-transform: uppercase;
+  font-size: 16px;
+  letter-spacing: .1em;
+}
+
+@media (min-width: 992px){
+  .navbar-expand-lg .navbar-toggler {
+      display: none;
+  }
+}
+
+.navbar-toggler {
+  padding: 0.25rem 0.75rem;
+  font-size: 1.25rem;
+  line-height: 1;
+  background-color: transparent;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+}
+
+button, [type="button"], [type="reset"], [type="submit"] {
+  -webkit-appearance: button;
+}
+
+@media (min-width: 992px){
+  .navbar-expand-lg .navbar-collapse {
+      display: -webkit-box!important;
+      display: -ms-flexbox!important;
+      display: flex!important;
+      -ms-flex-preferred-size: auto;
+      flex-basis: auto;
+  }
+}
+
+.navbar-collapse {
+  -ms-flex-preferred-size: 100%;
+  flex-basis: 100%;
+  -webkit-box-flex: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+@media (min-width: 992px){
+  .navbar-expand-lg .navbar-nav {
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+      flex-direction: row;
+  }
+}
+
+.navbar-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+}
+
+li {
+  display: list-item;
+  text-align: -webkit-match-parent;
+  margin-right: 10px;
+}
+
+@media (min-width: 992px){
+  .navbar-expand-lg .navbar-nav {
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+      flex-direction: row;
+  }
+}
+
+.ftco-navbar-light .navbar-nav>.nav-item>.nav-link {
+  font-size: 14px;
+  padding-top: 1.2rem;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-weight: 400;
+  color: rgb(211, 211, 211);
+  position: relative;
+  opacity: 1!important;
+}
+
+@media (min-width: 992px){
+  .order-lg-last {
+      order: 6!important;
+  }
+}
+
+.ftco-navbar-light .navbar-nav>.nav-item>.nav-link:hover {
+  color: red;
+}
+
+.ftco-navbar-light .navbar-nav>.nav-item>.nav-link:before {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  content: '';
+  display: block;
+  width: 0;
+  height: 2px;
+  background: red;
+  -webkit-transition: .5s;
+  -o-transition: .5s;
+  transition: .5s;
+}
+
+.ftco-navbar-light .navbar-nav>.nav-item>.nav-link:hover:before {
+  width: 100%;
+}
