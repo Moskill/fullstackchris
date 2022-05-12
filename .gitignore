@@ -2,5 +2,6 @@ plugins
 themes/twentytwenty
 themes/twentytwentyone
 themes/twentytwentytwo
-# ignore all logs
+themes/Full-Stack-Theme/css
+# ign/ore all logs
 *.log
