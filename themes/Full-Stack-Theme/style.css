@@ -7,13 +7,121 @@
  Text Domain:  FuclStackChris-theme
 */
 
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@100;400&family=Orbitron&family=PT+Sans&family=Poppins:wght@300&family=Roboto:wght@100&family=Ubuntu:wght@500&display=swap');
+
+
+
+.center {
+  width: 180px;
+  height: 60px;
+  position: absolute;
+}
+
+.btn2 {
+  width: 180px;
+  height: 60px;
+  cursor: pointer;
+  background: transparent;
+  border: 1px solid #b30303;
+  outline: none;
+  transition: 1s ease-in-out;
+}
+
+svg {
+  position: absolute;
+  left: 0;
+  top: 0;
+  fill: none;
+  stroke: #fff;
+  stroke-dasharray: 150 480;
+  stroke-dashoffset: 150;
+  transition: 1s ease-in-out;
+}
+
+.btn2:hover {
+  transition: 1s ease-in-out;
+  background: #b30303;
+}
+
+.btn2:hover svg {
+  stroke-dashoffset: -480;
+}
+
+.btn2 span {
+  color: white;
+  font-size: 18px;
+  font-weight: 100;
+}
+
 body {
   background-color: #0e0e0e !important;
   color: #dbdbdb !important;
 }
 
+body::-webkit-scrollbar {
+  width: 0.35rem;
+}
+
+body::-webkit-scrollbar-track {
+  background: #353535;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: #b30303;
+}
+
 header {
   display: inherit;
+}
+
+.fa-phone {
+  color: #b30303;
+}
+
+.social-bar {
+  margin: 1rem 0rem;
+}
+
+.fa-facebook, 
+.fa-twitter, 
+.fa-linkedin-in {
+  font-size: 30px;
+}
+
+.fa-twitter:hover {
+  color: #1DA1F2;
+  cursor: pointer;
+}
+
+.fa-facebook:hover {
+  color: #4267B2;
+  cursor: pointer;
+}
+
+.fa-linkedin-in:hover {
+  color: #0072b1;
+  cursor: pointer;
+}
+
+#social:hover:nth-child(i) {
+  color: green;
+}
+
+.header-phone {
+  font-weight: 600;
+  margin-top: 15px;
+  margin-left: 10px;
+}
+
+.link-sm {
+  color: #5c5c5c;
+  font-size: 18px;
+  line-height: 5;
+}
+
+.link-sm:hover {
+  cursor: pointer;
+  color: red;
 }
 
 .right-header {
@@ -21,8 +129,29 @@ header {
   background-repeat: no-repeat;
   /* background-attachment: fixed; */
   background-position: 0% 0%;
-  height: 1000px;
+  height: 768px;
   background-size: 600px;
+}
+
+.left-header {
+  font-family: 'Bebas Neue' !important ;
+}
+
+.left-header h1{
+  font-size: 60px;
+}
+
+.header-text {
+  font-family: 'Roboto' !important;
+  font-size: 18px;
+}
+
+.header-text2 {
+  font-weight: 100 !important;
+  font-style: italic;
+  line-height: 1;
+  font-size: 48px !important;
+  margin-bottom: 2rem;
 }
 
 .full-height {
