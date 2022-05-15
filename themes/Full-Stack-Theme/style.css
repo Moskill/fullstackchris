@@ -9,7 +9,9 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@100;400&family=Orbitron&family=PT+Sans&family=Poppins:wght@300&family=Roboto:wght@100&family=Ubuntu:wght@500&display=swap');
 
-
+.vhn-100 {
+  height: calc(100vh - 5rem) !important;
+}
 
 .center {
   width: 180px;
@@ -129,8 +131,8 @@ header {
   background-repeat: no-repeat;
   /* background-attachment: fixed; */
   background-position: 0% 0%;
-  height: 768px;
-  background-size: 600px;
+  height: 890px;
+  background-size: 650px;
 }
 
 .left-header {
