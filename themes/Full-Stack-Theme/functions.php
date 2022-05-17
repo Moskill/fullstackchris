@@ -12,5 +12,5 @@ function fsc_theme_stylesheets() {
 }
 
 add_action( 'wp_enqueue_scripts', 'fsc_theme_stylesheets' );
-
+// nivce comment so far
 ?>

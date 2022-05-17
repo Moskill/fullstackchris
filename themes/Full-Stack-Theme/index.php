@@ -48,45 +48,47 @@
     </nav>
     </div>
     <!-- Heare comes the slider -->
-    <div class="row align-items-end">
-        <div class="col-2 align-self-center">
-          <div class="d-flex flex-column align-items-center align-center fixed-socials" id="social">
-            <i class="fab fa-facebook social-bar"></i>
-            <i class="fab fa-twitter social-bar"></i>
-            <i class="fab fa-linkedin-in social-bar"></i>
-          </div>
+    <div class="row align-items-end vhn-100 pb-5">
+      <div class="col-2 align-self-center">
+        <div class="d-flex flex-column align-items-center align-center fixed-socials" id="social">
+          <i class="fab fa-facebook social-bar"></i>
+          <i class="fab fa-twitter social-bar"></i>
+          <i class="fab fa-linkedin-in social-bar"></i>
         </div>
-        <div class="col-4">
-          <div class="left-header align-text-bottom">
-            <h1 class="text-center font-light">Hi, my name is Chris</h1>
-            <h1 class="text-center font-lighter header-text2">I'am a full stack web and app developer and designer from germany.</h1>
-            <p class="header-text">I love to design pretty UI's by using modern technologies. I also design logos and print media for your business. Get in touch now!</p>
-            <div class="row justify-content-center">
-              <div class="col-6">
-                <div class="center">
-                  <button class="btn2">
-                    <svg width="180px" height="60px" viewBox="0 0 180 60" class="border">
-                      <polyline points="179,1 179,59 1,59 1,1 179,1" class="bg-line"></polyline>
-                      <polyline points="179,1 179,59 1,59 1,1 179,1" class="hl-line"></polyline>
-                    </svg>
-                    <span>Read more</span> 
-                  </button>
-                  
-                </div>
+      </div>
+      <div class="col-4 pb-5">
+        <div class="left-header align-text-bottom">
+          <h1 class="text-center font-light">Hi, my name is <span style="color: #b30303">Chris</span></h1>
+          <h1 class="text-center font-lighter header-text2">I'am a full stack web and app developer and designer from germany.</h1>
+          <p class="header-text pt-5 pb-5">I love to design pretty UI's by using modern technologies. I also design logos and print media for your business. Get in touch now!</p>
+          <div class="row justify-content-center pb-5">
+            <div class="col-4">
+              <div class="center">
+                <button class="btn2">
+                  <svg width="180px" height="60px" viewBox="0 0 180 60" class="border">
+                    <polyline points="179,1 179,59 1,59 1,1 179,1" class="bg-line"></polyline>
+                    <polyline points="179,1 179,59 1,59 1,1 179,1" class="hl-line"></polyline>
+                  </svg>
+                  <span>Read more</span> 
+                </button>
+                
               </div>
-              <div class="col-6">
-                <span class="link-sm">View my projects -></span>
-              </div>
+            </div>
+            <div class="col-8 pb-5">
+              <span class="link-sm">View my projects -></span>
             </div>
           </div>
         </div>
-        <div class="col-6">
-          <div class="right-header"></div>
-        </div>
+      </div>
+      <div class="col-6">
+        <div class="right-header"></div>
+      </div>
     </div>
-    <div class="row">
+    <div class="row mt-5">
       <div class="col-6"></div>
-      <div class="col-6"></div>
+      <div class="col-6">
+        <h1 class="font-light header-text2">Experience</h1>
+      </div>
     </div>
     <div class="row">
     </div>
